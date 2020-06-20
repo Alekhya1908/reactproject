@@ -1,0 +1,101 @@
+body
+{
+	background-color:#58D68D;
+}
+#main
+{
+	background-color: #D5E1E9 ;
+	margin:10%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+}
+
+
+
+.card,
+.card1,
+.card2
+{
+	background-color:rgb(93, 126, 103) ;
+	width:30%;
+	margin: 4%;
+    border-radius: 4%;
+    text-align: center;
+	box-shadow: 10px 10px 4px 4px ;
+}
+
+
+.card:hover,
+.card1:hover,
+.card2:hover
+{
+	color:rgb(67, 29, 139);
+}
+
+img
+{
+	width: 70%;
+	height:45%;
+	border-radius: 8%;
+	margin:4%;
+	background-color: aliceblue;
+}
+
+p{
+	font-size:20px;
+}
+a{
+	text-decoration: none;
+    color:rgb(134, 15, 15);
+}
+
+a>h3{
+	color:rgb(134, 15, 15);
+}
+
+
+@media screen and (max-device-width:480px)
+{
+	img{
+		width:30%
+	}
+  
+    #main{
+        flex-direction: column;
+	}
+	.card,.card1,.card2
+	{
+		background-color:rgb(99, 46, 8);
+		width:100%
+	}
+	.card:hover,
+.card1:hover,
+.card2:hover
+{
+	color:rgb(233, 111, 12);
+}
+}
+
+@media (min-device-width:481px) and (max-device-width:780px)
+{
+	img{
+		width:30%
+	}
+	#main{
+        flex-direction: column;
+	}
+	.card,.card1,.card2
+	{
+		background-color:rgb(8, 73, 99);
+		width:100%
+	}
+	.card:hover,
+.card1:hover,
+.card2:hover
+{
+	color:rgb(226, 12, 233);
+}
+}
+
+
